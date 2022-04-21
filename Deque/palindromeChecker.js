@@ -1,7 +1,5 @@
-const deque = require('./Deque.js');
-const { Deque } = require('./index.js');
-console.log(deque);
-
+const Deque = require('./index.js');
+console.log(Deque);
 
 function palindromeChecker(aString) {
     if(!aString) return false;
@@ -24,6 +22,12 @@ function palindromeChecker(aString) {
         }
     }
 
-    return;
+    return isEqual;
 }
 
+console.log('a', palindromeChecker('a'))
+console.log('aa', palindromeChecker('aa'))
+console.log('kayak', palindromeChecker('kayak'))
+console.log('level', palindromeChecker('level'))
+console.log('was it a car or a cat I saw', palindromeChecker('was it a car or a cat I saw'))
+console.log('Step on no pets', palindromeChecker('Step on no pets'))
