@@ -98,7 +98,5 @@ class Deque {
     }
 }
 
-module.exports = {
-    Deque
-}
+module.exports = Deque;
 
