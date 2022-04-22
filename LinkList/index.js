@@ -1,137 +1,63 @@
-import { defaultEquals }  from './utils/defaultEquals.js'
-import { Node }  from './utils/link-list-models.js'
+
+// //链表  1=>2=>3=>4=>5
 
 
-export default class LinkedList {
-    constructor(equalsFn = defaultEquals ) {
-        this.count = 0;
-        this.head = undefined;
-        this.equalsFn = equalsFn; // 比较链表数是否相等，调用内部函数名
-    }
+// class Node {
+//     constructor(val) {
+//         this.val = val
+//         this.next = null
+//     }
+// }
 
-    // 向链表尾部添加一个新元素。
-    push(element) {
-        /**
-         * 时间复杂度 O(N)
-         * 空间复杂度 O(1)
-        **/
+// class LinkNodeList {
+//     constructor() {
+//         this.head = null
+//         this.length = 0
+//     }
 
-        const node = new Node(element);
-        let current;
-        // console.log(this.head, 'this.head');
+//     append(val) {
+//         let node = new Node(val)
+//         let p = this.head;
 
-        if (this.head == null) {
-            this.head = node;
-        } else {
-            current = this.head;
+//         if (this.head) {
+//             //找到最后的节点，把这个节点.next属实赋值给node// 没搞明白为什么这么写
+//             while(p.next) {
+//                 p = p.next
+//             }
+//             p.next = node;
+//         } else {
+//             // 没有head节点，链表此时为空，把要创建的节点赋值给head
+//             this.head = node;
+//         }
+//         this.length++;
+//     }
 
-            // 头结点指向不为空，，循环找到最后一个节点
-            while (current.next != null) {
-                current = current.next;
-            }
+//     print() {
+//         let p = this.head;
+//         let ret = '';
+//         if (this.head) {
+//             do {
+//                 ret += (p.val +'=>');
+//                 p = p.next;
+//             } while (p.next)
+//             ret += p.val;
 
-            // 将其赋值为新元素，建立链接
-            current.next = node
-        }
-        this.count++;
-    }
+//             console.log(ret)
+//         } else {
+//             console.log('empty')
+//         }
+//     }
+// }
 
-    // 从链表的自定位置移除一个元素。
-    removeAt(index) {
-        if (index >= 0 && index < this.count) {
-            let current = this.head;
+// const linkNode = new LinkNodeList();
 
-            // 移除第一项
-            if(index == 0) {
-                this.head = current.next;
-            } else {
-                // let previous;
-                // for (let i = 0; i < index; i++) {
-                //     console.log(i)
-                //     previous = current;
-                //     current = current.next;
-                // }
-                // previous.next = current.next;
+// linkNode.append(1)
+// linkNode.append(2)
+// linkNode.append(3)
+// linkNode.append(4)
+// linkNode.print();
 
-                // refactor
-                const previous = this.getElementAt(index-1);
-                current = previous.next;
-                previous.next = current.next;
-            }
-
-            this.count--;
-            return current.element;
-        };
-
-        return undefined;
-    }
-
-
-
-    // 获取指定位置node
-    getElementAt(index) {
-        if (index >= 0 && index <= this.count) {
-            let node = this.head;
-            for (let i = 0; i < index && node != null; i++) {
-                node = node.next;
-            };
-            return node;
-        };
-        return undefined;
-    }
-
-    //任意位置插入节点
-    insert(element, index) {
-        if (index >= 0 && index <= this.count) {
-            const node = new Node(element);
-
-            if (index === 0) {
-                const current = this.head;
-                node.next = current
-                this.head = node;
-            } else {
-                const previous = this.getElementAt(index - 1)
-                const current = previous.next
-                node.next = current;
-                previous.next = node;
-            }
-            this.count++;
-            return true;
-        }
-
-        return false;
-    }
-
-    //返回一个元素的位置
-    indexOf(element) {
-        let current = this.head;
-        for ( let i = 0; i < this.count && current != null; i++) {
-            if (this.equalsFn(element, current.element)) {
-                return i;
-            }
-            current = current.next;
-        }
-        return -1;
-    }
-
-
-
-}
-
-const list = new LinkedList()
-list.push(10)
-list.push(12)
-list.push(13)
-
-
-
-
-
-
-
-
-
-
-
+// console.log(linkNode.length)
+// //链表  1=>2=>3=>4
 
 
