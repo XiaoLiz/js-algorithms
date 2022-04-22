@@ -36,6 +36,51 @@ export default class LinkedList {
         this.count++;
     }
 
+    // 从链表的自定位置移除一个元素。
+    removeAt(index) {
+        if (index >= 0 && index < this.count) {
+            let current = this.head;
+
+            // 移除第一项
+            if(index == 0) {
+                this.head = current.next;
+            } else {
+                // let previous;
+                // for (let i = 0; i < index; i++) {
+                //     console.log(i)
+                //     previous = current;
+                //     current = current.next;
+                // }
+                // previous.next = current.next;
+
+                // refactor
+                const previous = this.getElementAt(index-1);
+                current = previous.next;
+                previous.next = current.next;
+            }
+
+            this.count--;
+            return current.element;
+        };
+
+        return undefined;
+    }
+
+
+
+    // 获取指定位置node
+    getElementAt(index) {
+        if (index >= 0 && index <= this.count) {
+            let node = this.head;
+            for (let i = 0; i < index && node != null; i++) {
+                node = node.next;
+            };
+            return node;
+        };
+        return undefined;
+    }
+
+
 
 }
 
