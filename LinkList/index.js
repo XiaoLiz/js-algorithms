@@ -9,9 +9,14 @@ export default class LinkedList {
         this.equalsFn = equalsFn; // 比较链表数是否相等，调用内部函数名
     }
 
+    // 向链表尾部添加一个新元素。
     push(element) {
-        const node = new Node(element);
+        /**
+         * 时间复杂度 O(N)
+         * 空间复杂度 O(1)
+        **/
 
+        const node = new Node(element);
         let current;
         // console.log(this.head, 'this.head');
 
@@ -28,34 +33,7 @@ export default class LinkedList {
             // 将其赋值为新元素，建立链接
             current.next = node
         }
-
         this.count++;
-    }
-
-    removeAt(index) {
-        if (index >= 0 && index < this.count) {
-            let current = this.head;
-
-            // 移除第一项
-            if(index == 0) {
-                this.head = current.next;
-            } else {
-                let previous;
-
-               for (let i = 0; i < index; i++) {
-                    previous = current;
-                    current = current.next;
-               }
-
-            //    console.log(current, 'current')
-               previous.next = current.next;
-            }
-
-            this.count--;
-            return current.element;
-        }
-
-        return undefined;
     }
 
 
@@ -63,13 +41,8 @@ export default class LinkedList {
 
 const list = new LinkedList()
 list.push(10)
-list.push(11)
 list.push(12)
 list.push(13)
-
-console.log(list.removeAt(2), 'this removeAt');
-console.log(list.head, 'list head');
-
 
 
 
