@@ -7,6 +7,7 @@
  * }
  */
 /**
+ * @link https://leetcode-cn.com/problems/invert-binary-tree/
  * @param {TreeNode} root
  * @return {TreeNode}
  */
