@@ -24,6 +24,6 @@
 
 [双向链表插入、删除](./src/LinkList/DoublyLinkedList.js)
 
-[双向链表插入、删除](./src/LinkList/CircularLinkedList.js)
+[循环链表插入、删除](./src/LinkList/CircularLinkedList.js)
 
 
