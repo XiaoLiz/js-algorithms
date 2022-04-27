@@ -1,29 +1,29 @@
 ## Javascript数据结构
 
-[链表](./LinkList/LinkList.js)
+[链表](./src/LinkList/LinkList.js)
 
-[数组-模拟](./Array/removeArrayFirstIndex.js)
-
-
-[栈](./Stack/stackArray.js)
-
-[栈-进制转换](./Stack/decimalToBinary.js)
+[数组-模拟](./src/Array/removeArrayFirstIndex.js)
 
 
-[循环队列](./Queue/index.js)
+[栈](./src/Stack/stackArray.js)
 
-[循环队列-击鼓传花](./Queue/hotpotsto.js)
-
-
-[双端队列](./Deque/index.js)
-
-[双端队列-回文检查器](./Deque/palindromeChecker.js)
+[栈-进制转换](./src/Stack/decimalToBinary.js)
 
 
-[单向链表](./LinkList/LinkedList.js)
+[循环队列](./src/Queue/index.js)
 
-[双向链表插入、删除](./LinkList/DoublyLinkedList.js)
+[循环队列-击鼓传花](./src/Queue/hotpotsto.js)
 
-[双向链表插入、删除](./LinkList/CircularLinkedList.js)
+
+[双端队列](./src/Deque/index.js)
+
+[双端队列-回文检查器](./src/Deque/palindromeChecker.js)
+
+
+[单向链表](./src/LinkList/LinkedList.js)
+
+[双向链表插入、删除](./src/LinkList/DoublyLinkedList.js)
+
+[双向链表插入、删除](./src/LinkList/CircularLinkedList.js)
 
 

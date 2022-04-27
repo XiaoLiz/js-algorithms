@@ -1,6 +1,4 @@
-
 // //链表  1=>2=>3=>4=>5
-
 
 // class Node {
 //     constructor(val) {
@@ -59,5 +57,4 @@
 
 // console.log(linkNode.length)
 // //链表  1=>2=>3=>4
-
 
