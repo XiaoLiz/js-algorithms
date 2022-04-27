@@ -2,7 +2,7 @@ import { defaultEquals }  from './utils/defaultEquals.js'
 import { Node }  from './utils/link-list-models.js'
 
 
-export default class LinkedList {
+export class LinkedList {
     constructor(equalsFn = defaultEquals ) {
         this.count = 0;
         this.head = undefined;
@@ -88,8 +88,8 @@ export default class LinkedList {
                 this.head = node;
             } else {
                 const previous = this.getElementAt(index - 1)
-                const current = previous.next
-                node.next = current;
+                // const current = previous.next
+                node.next = previous.next;
                 previous.next = node;
             }
             this.count++;
@@ -144,13 +144,13 @@ export default class LinkedList {
     }
 }
 
-const list = new LinkedList()
-list.push(10)
-list.push(12)
-list.push(13)
+// const list = new LinkedList()
+// list.push(10)
+// list.push(12)
+// list.push(13)
 
-list.insert(11, 1);
-console.log(list.toString(), 'toString');
+// list.insert(11, 1);
+// console.log(list.toString(), 'toString');
 
 
 
