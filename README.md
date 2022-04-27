@@ -1,23 +1,23 @@
 ## Javascript数据结构
 
-[链表](./src/LinkList/LinkList.js)
+[链表](./src/structure/LinkList/LinkList.js)
 
-[数组-模拟](./src/Array/removeArrayFirstIndex.js)
-
-
-[栈](./src/Stack/stackArray.js)
-
-[栈-进制转换](./src/Stack/decimalToBinary.js)
+[数组-模拟](./src/structure/Array/removeArrayFirstIndex.js)
 
 
-[循环队列](./src/Queue/index.js)
+[栈](./src/structure/Stack/stackArray.js)
 
-[循环队列-击鼓传花](./src/Queue/hotpotsto.js)
+[栈-进制转换](./src/structure/Stack/decimalToBinary.js)
 
 
-[双端队列](./src/Deque/index.js)
+[循环队列](./src/structure/Queue/index.js)
 
-[双端队列-回文检查器](./src/Deque/palindromeChecker.js)
+[循环队列-击鼓传花](./src/structure/Queue/hotpotsto.js)
+
+
+[双端队列](./src/structure/Deque/index.js)
+
+[双端队列-回文检查器](./src/structure/Deque/palindromeChecker.js)
 
 
 [单向链表](./src/LinkList/LinkedList.js)
