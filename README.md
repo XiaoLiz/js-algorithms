@@ -1,4 +1,4 @@
-## 数据结构
+## 算法入门
 
 ### Array
    * [数组-模拟](./src/structure/Array/removeArrayFirstIndex.js)
@@ -18,10 +18,9 @@
    * [双向链表插入、删除](./src/structure/LinkList/DoublyLinkedList.js)
    * [循环链表插入、删除](./src/structure/LinkList/CircularLinkedList.js)
 
-
-## 题集
-
 ### 树
+   * [二叉搜索树](./src/structure/tree/BinarySearchTree.js)
+   *
    * [104.二叉树最大深度](./src/playground/104.二叉树最大深度.js)
    * [226.树最大深度](./src/playground/226.翻转二叉树.js)
 
