@@ -1,6 +1,14 @@
 
 ## algorithm playground
 
+### 2022-05-09
+- [15. 两数相加](https://leetcode.cn/problems/add-two-numbers/description/)
+- [155. 最小栈](https://leetcode.cn/problems/min-stack/submissions/)
+- [剑指 Offer 09. 用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)
+- [剑指 Offer 30. 包含min函数的栈](https://leetcode.cn/problems/bao-han-minhan-shu-de-zhan-lcof/)
+
+
+
 ### 2022-05-06
 ## 排序
 - JavaScript sort 排序
