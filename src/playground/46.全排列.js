@@ -11,7 +11,6 @@
 /**
  * @param {number[]} nums
  * @return {number[][]}
- * 
  */
 
 function backtrack(list, temp, nums) {
@@ -35,7 +34,7 @@ var permute = function (nums) {
 	let list = [];
 	backtrack(list, [], nums)
 
-	return list;
+	return list
 };
 // @lc code=end
 
