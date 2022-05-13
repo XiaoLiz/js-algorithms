@@ -17,8 +17,8 @@ var findContentChildren = function (g, s) {
 	let ret = 0;
 	let index = s.length - 1;
 	for (let i = g.length - 1; i >= 0; i--) {
-		console.log(s[index], index, 's[index]')
-		console.log(g[i], i, 'g[i]')
+
+
 		if (index >= 0 && s[index] >= g[i]) {
 			ret++;
 			index--;

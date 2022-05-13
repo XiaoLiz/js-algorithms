@@ -1,25 +1,60 @@
 
+## 算法入门
+
+### Array
+   * [数组-模拟](./algorithm/Array/removeArrayFirstIndex.js)
+
+### 栈
+   * [栈](./algorithm/Stack/stackArray.js)
+   * [栈-进制转换](./algorithm/Stack/decimalToBinary.js)
+
+### 队列
+   * [循环队列](./algorithm/Queue/index.js)
+   * [循环队列-击鼓传花](./algorithm/Queue/hotpotsto.js)
+   * [双端队列](./algorithm/Deque/index.js)
+   * [双端队列-回文检查器](./algorithm/Deque/palindromeChecker.js)
+### 链表
+   * [单向链表](./algorithm/LinkList/LinkedList.js)
+   * [双向链表插入、删除](./algorithm/LinkList/DoublyLinkedList.js)
+   * [循环链表插入、删除](./algorithm/LinkList/CircularLinkedList.js)
+### 树
+   * [二叉搜索树](./algorithm/tree/BinarySearchTree.js)
+### 排序
+   * [冒泡排序](./algorithm/Sort/bubbleSort.js)
+   * [快速排序](./algorithm/Sort/quickSort.js)
+   * [二分-leftpad](./algorithm/Sourcecode/leftpad.js)
+
+## 运算符
+
+- "&"  与
+- "|"  或
+- "~"  非
+- "^"  异或
+- "<<" 左移
+- ">>" 右移、、
+
 ## algorithm playground
 
+### 2022-05-13
+#### 考察知识点
+1.**动态规划**
+2.贪心算法思维
+3.二分查找
 
-### 2022-05-10
+- [300. 最长递增子序列](https://leetcode.cn/problems/longest-increasing-subsequence/description/)
+- [322. 零钱兑换](https://leetcode.cn/problems/coin-change/description/)
+- [509. 斐波那契数](https://leetcode.cn/problems/fibonacci-number/)
 
-#### 阅读
-《黑客与画家》
--
--
 
+
+### 2022-05-11
 #### 算法要点
 1.贪心算法
-2.动态规划
-
-#### algorithm playground
 
 - [79. 单词搜索-回溯](https://leetcode.cn/problems/word-search/)
 - [455. 分发饼干](https://leetcode.cn/problems/assign-cookies/description/)
 
 - [860. 柠檬水找零](https://leetcode.cn/problems/lemonade-change/description/)
-
 
 
 ### 2022-05-09
