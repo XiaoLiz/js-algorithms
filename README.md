@@ -1,3 +1,18 @@
+## 算法练习
+
+- 数据结构
+ - 数组
+  - [26] 删除有序数组中的重复项
+  - [27] 移除元素
+  - [167] 两数之和 II - 输入有序数组
+  - [283] 移动零
+  - [209] **长度最小的子数组** 
+  - [344] 反转字符串
+  - [977] 有序数组的平方
+
+
+
+
 
 ## 算法入门
 ### Array
@@ -30,13 +45,14 @@
 - ">>" 右移、、
 
 ## algorithm playground
+
 ### 2022-05-13
 #### 考察知识点
 1.**动态规划**
 2.贪心算法思维
 3.二分查找
 
-- [二叉树的中序遍历](https://leetcode.cn/problems/binary-tree-inorder-traversal/description/)
+- [94.二叉树的中序遍历](https://leetcode.cn/problems/binary-tree-inorder-traversal/description/)
 - [144. 二叉树的前序遍历](https://leetcode.cn/problems/binary-tree-preorder-traversal/description/)
 - [145. 二叉树的后序遍历](https://leetcode.cn/problems/binary-tree-postorder-traversal/description/)
 - [300. 最长递增子序列](https://leetcode.cn/problems/longest-increasing-subsequence/description/)
@@ -55,7 +71,6 @@ s
 - [155. 最小栈](https://leetcode.cn/problems/min-stack/submissions/)
 - [剑指 Offer 09. 用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)
 - [剑指 Offer 30. 包含min函数的栈](https://leetcode.cn/problems/bao-han-minhan-shu-de-zhan-lcof/)
-
 
 
 ### 2022-05-06
