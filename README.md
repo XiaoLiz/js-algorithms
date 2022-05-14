@@ -1,13 +1,10 @@
 
 ## 算法入门
-
 ### Array
    * [数组-模拟](./algorithm/Array/removeArrayFirstIndex.js)
-
 ### 栈
    * [栈](./algorithm/Stack/stackArray.js)
    * [栈-进制转换](./algorithm/Stack/decimalToBinary.js)
-
 ### 队列
    * [循环队列](./algorithm/Queue/index.js)
    * [循环队列-击鼓传花](./algorithm/Queue/hotpotsto.js)
@@ -25,7 +22,6 @@
    * [二分-leftpad](./algorithm/Sourcecode/leftpad.js)
 
 ## 运算符
-
 - "&"  与
 - "|"  或
 - "~"  非
@@ -34,26 +30,23 @@
 - ">>" 右移、、
 
 ## algorithm playground
-
 ### 2022-05-13
 #### 考察知识点
 1.**动态规划**
 2.贪心算法思维
 3.二分查找
 
+- [二叉树的中序遍历](https://leetcode.cn/problems/binary-tree-inorder-traversal/description/)
+- [144. 二叉树的前序遍历](https://leetcode.cn/problems/binary-tree-preorder-traversal/description/)
+- [145. 二叉树的后序遍历](https://leetcode.cn/problems/binary-tree-postorder-traversal/description/)
 - [300. 最长递增子序列](https://leetcode.cn/problems/longest-increasing-subsequence/description/)
 - [322. 零钱兑换](https://leetcode.cn/problems/coin-change/description/)
 - [509. 斐波那契数](https://leetcode.cn/problems/fibonacci-number/)
 
-
-
+s
 ### 2022-05-11
-#### 算法要点
-1.贪心算法
-
 - [79. 单词搜索-回溯](https://leetcode.cn/problems/word-search/)
 - [455. 分发饼干](https://leetcode.cn/problems/assign-cookies/description/)
-
 - [860. 柠檬水找零](https://leetcode.cn/problems/lemonade-change/description/)
 
 
@@ -66,12 +59,10 @@
 
 
 ### 2022-05-06
-## 排序
 - JavaScript sort 排序
 -  sort内部机制 for循环遍历
 - 快速排序
 - [15. 三数之和](https://leetcode-cn.com/problems/3sum/description/)
-
 
 ### 2022-05-05
 - [71. 简化路径](https://leetcode-cn.com/problems/simplify-path/submissions/)
