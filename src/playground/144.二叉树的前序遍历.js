@@ -30,13 +30,12 @@ var preorderTraversal = function (root) {
 	// dfs(root);
 	// return arr;
 
-	// 栈
+	// 栈 + 迭代
 	let stack = [];
 	let arr = [];
-	if (root == null) return;
+	if (root == null) return arr;
 
 	stack.push(root);
-
 	while (stack.length) {
 		let node = stack.pop();
 		if (node) {
@@ -47,8 +46,6 @@ var preorderTraversal = function (root) {
 		stack.push(node.right);
 		stack.push(node.left);
 	}
-	console.log(arr)
-
 	return arr
 };
 // @lc code=end
