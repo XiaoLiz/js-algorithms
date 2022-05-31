@@ -24,7 +24,6 @@ var hasCycle = function(head) {
     //     if(res.includes(head)){
     //         return true;
     //     }
-
     //     res.push(head)
     //     head = head.next;
     // }
